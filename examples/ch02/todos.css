@@ -1,0 +1,61 @@
+.todo-mainframe{
+    width: 100%;
+    height: 100%;
+}
+
+.todo-sub-frame{
+    width: 50%;
+    background-color: aliceblue;
+    /*align-content: center;*/
+    margin-inline: auto;
+    text-align: center;
+    border: 1px solid darkblue;
+    height: 70%;
+    font-family: 'Roboto', sans-serif;
+    margin: 2em auto;
+}
+
+.todo-sub-frame h1{
+    font-size: 3.5rem;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    margin: 2em auto;
+}
+
+.todo-sub-frame p{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    margin: 2em auto;
+    font-size: 1.5rem;
+}
+
+.todo-sub-frame label{
+    display: block;
+    font-style: italic;
+    margin-bottom: 0.25em;
+}
+
+.todo-sub-frame input{
+    width: 350px;
+    height: 50px;
+    border-radius:10px ;
+    margin-bottom: 1.25em
+}
+
+.todo-sub-frame button {
+    width: 70px;
+    height: 50px;
+    background-color: #004a8b;
+    border-radius: 15px;
+    color: black;
+}
+
+#DoneButton{
+    margin-left: calc(20px);
+}
+
+.populated-list-frame{
+
+}
